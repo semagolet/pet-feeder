@@ -12,9 +12,9 @@ LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
 WidgetRTC rtc;
 Servo servo;
 
-char auth[] = "a5eJ-hVigjWs0qLLZcWtIqTSp0EbLl5W"; //
-char ssid[] = "FiberHGW_ZTNP3K_2.4GHz";   //
-char pass[] = "fDgbyxK4t7";   //
+char auth[] = ""; // your auth token
+char ssid[] = "";   // your ssid
+char pass[] = "";   // your password
 int i,j,n,s,d;
 BlynkTimer timer;
 bool pinValue=0;
